@@ -1,4 +1,3 @@
-source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.1.1"
@@ -24,8 +23,12 @@ gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
+gem 'simple_form', '~> 5.1'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
